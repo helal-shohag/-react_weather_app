@@ -1,9 +1,9 @@
 import './style.css';
-import Weather from './components/weather';
+import Weather from './components/Weather';
 
 function App() {
   return (
-    <div className='app '>
+    <div className='app'>
       <Weather/>
     </div>
   );

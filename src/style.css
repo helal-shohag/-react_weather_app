@@ -15,7 +15,7 @@
 }
 .weather{
   place-self: center;
-  padding: 50px;
+  padding: 100px;
   background: rgba(112, 100, 100, 0.3);
   border-radius: 5px;
   backdrop-filter: blur(20px);
@@ -24,7 +24,7 @@
   border:1px solid rgba(75, 73, 73, 0.18)
 }
 
-.weather input{
+.search-bar input{
   height:50px;
   width: 500px;
   border-radius: 5px;
@@ -32,21 +32,63 @@
   padding-left: 25px;
   font-size: 16px;
   color: rgb(73, 73, 73);
+  position: relative;
   
 }
-.weather h2{
+.search-bar h2{
   text-align: center;
   margin-bottom: 10px;
   color: #fff;
   
 }
-.weather button{
-  background-color: #3fa1b4;
+.search-bar img{
+  background-color: #deebee;
   height: 50px;
-  padding: 10px;
+  padding: 15px;
   margin-left: 10px;
   color: aliceblue;
   border: none;
-  border-radius: 5px;
+  border-radius: 50%;
   font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+}
+
+.value{
+  text-align: center;
+  padding-top: 5px;
+}
+.value img{
+  height: 300px;
+
+}
+.value h2{
+  color:rgb(133, 142, 150);
+  
+}
+.weather-data{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.weather-data img{
+  height: 50px;
+  text-align: center;
+  
+}
+.tempreture{
+  font-size: 80px;
+ 
+}
+.location{
+  font-size: 50px;
+}
+
+.weather-data .col{
+  display: flex;
+}
+.weather-data .col p{
+  margin-top: 5px;
+  margin-left: 15px;
+  color: #deebee;
 }
